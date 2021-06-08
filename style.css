@@ -26,12 +26,34 @@ body {
 
 .currentProjects{
     margin-top: 100px;  
+    margin-bottom: 75px;
 }
 
 .aboutMe{
     margin-top: 100px;
+    margin-bottom: 75px;
+
 }
 
 .contactMe{
     margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+#email{
+    color: blue;
+    font-weight: bold;
+    size: 25px;
+    text-decoration: underline;
+}
+
+#phone{
+    color: blue;
+    size: 25px ;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
 }
