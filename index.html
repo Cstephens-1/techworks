@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechWorks</title>
+    <title>TtravelToday</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="header">
-        <h1>TechWorks</h1>
-        <h3>Software Development</h3>
-    </div>
 
-    <div class="currentProjects">
-        <h2>Current Projects</h2>
-        <p>This website!</p>
-    </div>
-
-    <div id="aboutMe">
-        <h2>About Me</h2>
-        <p >Currently a nomad with my partner, Ryan, and sheprador pup, Nyx. We love to travel and experience other countries and their diverse cultures. I started exploring software development on my own early last year and I'm excited to join the Flatiron School in July!</p>
-        <img id= "headshot" src="./headshot.jpg" alt="Cory picture" width="250" height="250">
-    </div>
-
-    <div id="contactMe">
-        <h2>Contact Me</h2>
-        <p id="email">email</p>
-        <p id="phone">phone</p>
-    </div>
-
-    <footer>
-        <a href="#header" id="top">Top</a>
-        <a href="#aboutMe" id="about">About Me</a>
-        <a href="#contactMe" id="contact">Contact Me</a>
-    </footer>
+        <div id="header">
+            <div id="logo">
+                <h1>Travel<|>Exchange</h1>
+            </div>
+        </div>
 
 
-    <script src="script.js"></script>
+        <div class="sidebar">
+            <h2 id="education"><a href="https://flatironschool.com/campus-and-online-coding-bootcamp/">Education</a>
+            </h2>
+            <h2 id="contact">Contact Me</h2>
+        </div>
+
+        <h3 id="places">Where We Go</h3>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                
+                <img src="TechWorks images/Antigua_sunset.jpg">
+            
+            </div>
+
+            <div class="mySlides fade">
+                
+                <img src="TechWorks images/mexico_senset.jpg">
+             
+            </div>
+
+            <div class="mySlides fade">
+               
+                <img src="TechWorks images/Hawaii_waterfall.jpg">
+               
+            </div>
+
+        
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div class="alldots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+
+
 </body>
+
 </html>

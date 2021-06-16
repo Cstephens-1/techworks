@@ -1,59 +1,109 @@
 body {
-    background-image: url('./cloudbackground.jpg');
-    background-size: cover;
-  }
-
-  h1{
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-decoration: underline;
-      margin-bottom: 0px;
-  }
-
-  h3{
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      padding-top: 0px;
-      margin-top: 0px;
-  }
-
-  .header{
-    margin-left: 100px;
-    margin-top: 80px;
-  }
-
-  h2{
-      font-style: italic;
-  }
-
-.currentProjects{
-    margin-top: 100px;  
-    margin-bottom: 75px;
+    background: -webkit-linear-gradient(0deg, black 22%, white 22%);
+    width: 100%;
 }
 
-.aboutMe{
-    margin-top: 100px;
-    margin-bottom: 75px;
-
-}
-
-.contactMe{
-    margin-top: 100px;
-    margin-bottom: 75px;
-}
-
-#email{
-    color: blue;
-    font-weight: bold;
-    size: 25px;
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
+    margin-bottom: 0px;
 }
 
-#phone{
-    color: blue;
-    size: 25px ;
-    font-weight: bold;
-    text-decoration: underline;
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
-footer{
-    text-align: center;
+.sidebar{
+    max-width: 22%;
+}
+
+#education{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:blue;
+    width: 150px;
+}
+
+#places{
+    margin-left: 50%;
+}
+#contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration:underline;
+    color:blue;
+    width: 150px;
+
+}
+#header {
+    margin-top: 5%;
+    background-color: darkgreen;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#logo {
+    margin-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  margin-left: 38%;
+  margin-top: 2%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.alldots{
+    margin-left: 53%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
