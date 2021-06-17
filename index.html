@@ -5,65 +5,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TtravelToday</title>
+    <title>TravelToday</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-        <div id="header">
-            <div id="logo">
-                <h1>Travel<|>Exchange</h1>
-            </div>
+    <div id="header">
+        <div id="logo">
+            <h1>Travel<|>Exchange</h1>
         </div>
+    </div>
+    <h3>
+        <span class="text_1">Where do you want to go?</span>
+        <span class="text_2">What's holding you back?</span>
+    </h3>
+
+    <h2>We can get you there.</h2>
+
+    <div class="description">
+        <p id="description">Travel Exchange was founded to foster connections between people around the world. Most of
+            those lucky enough to travel internationally for pleasure only get a taste of their destination's culture.
+            Travel Exchange provides a way to immerse yourself completely. Choose your destination and when you want to
+            get there, match with one of our verified exchange-mates, and spend time getting to know each other. You and
+            your
+            exchange-mate will live for up to a month in the other's home, getting to know their family and friends,
+            their local foods and places to hang out, and truly see how the day-to-day goes in another country.
+        </p>
+    </div>
+
+    <div class="sidebar">
+        <h3><a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/">Travel Advisories</a></h3>
+        <h3><a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html">Covid Precautions</a></h3>
+        <h3 id="contact">Contact Us</h3>
+    </div>
+
+    <h3 class="whereWeGo">Where We Go</h3>
+    <p id="whereWeGo">We partner with locals from around the world including:
+        <ul>
+            <li>USA</li>
+            <li>Canada</li>
+            <li>France</li>
+            <li>Germany</li>
+            <li>Spain</li>
+            <li>Italy</li>
+            <li>Costa Rica</li>
+            <li>Brazil</li>
+            <li>Thailand</li>
+            <li>India</li>
+            <li>Morocco</li>
+            <li>South Africa</li>
+            <li>and more!</li>
+        </ul>
+    </p>
+
+    <div class="picContainer">
+        <img class="pictures" src="TechWorks images/thai_elephant.JPG" alt="">
+        <img class="pictures" src="TechWorks images/Mexico_pyramid.JPG" alt="">
+        <img class="pictures" src="TechWorks images/Hawaii_waterfall.jpg" alt="">
+    </div>
+
+    <footer>
+        <a href="#header">Top</a>
+        <a href="#whereWeGo">Where We Go</a>
+        <a href="#picContainer">Pictures</a>
+    </footer>
 
 
-        <div class="sidebar">
-            <h2 id="education"><a href="https://flatironschool.com/campus-and-online-coding-bootcamp/">Education</a>
-            </h2>
-            <h2 id="contact">Contact Me</h2>
-        </div>
-
-        <h3 id="places">Where We Go</h3>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-                
-                <img src="TechWorks images/Antigua_sunset.jpg">
-            
-            </div>
-
-            <div class="mySlides fade">
-                
-                <img src="TechWorks images/mexico_senset.jpg">
-             
-            </div>
-
-            <div class="mySlides fade">
-               
-                <img src="TechWorks images/Hawaii_waterfall.jpg">
-               
-            </div>
-
-        
-        </div>
-        <br>
-
-        <!-- The dots/circles -->
-        <div class="alldots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
-
-
-
-        <script src="script.js"></script>
-
-
+<script src="script.js"></script>
 </body>
 
 </html>
