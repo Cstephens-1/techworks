@@ -165,3 +165,8 @@ footer{
     opacity: 1;
   }
 }
+
+.clickedPic{
+  height: 400px;
+  width: 300px;
+}
