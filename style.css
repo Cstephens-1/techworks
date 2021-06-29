@@ -1,4 +1,4 @@
-body {
+.indexbody {
   background: -webkit-linear-gradient(0deg, black 22%, white 22%);
   width: 100%;
 }
@@ -35,6 +35,16 @@ footer {
 
 a {
   color: white;
+}
+
+.login-box{
+  text-align: center;
+  color: white;
+  padding-top: 15%;
+}
+
+.loginBody{
+  background: darkgreen;
 }
 
 
@@ -77,9 +87,14 @@ a {
   margin-left: 38%;
 }
 
+
+
+
 #contact {
   color: blue;
   text-decoration: underline;
+  margin-right: 0px;
+  width: 120px;
 }
 
 #whereWeGo {
@@ -108,6 +123,13 @@ a {
   padding-top: 10px;
 }
 
+#signin-logo{
+  text-align: center;
+  background: darkgreen;
+  width: 100%;
+  padding-top: 30px;
+}
+
 #login {
   float: right;
   width: 200px;
@@ -134,7 +156,7 @@ a {
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
   color: green;
@@ -146,7 +168,7 @@ a {
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
   color: green;
