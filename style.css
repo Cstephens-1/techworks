@@ -1,45 +1,44 @@
 body {
-    background: -webkit-linear-gradient(0deg, black 22%, white 22%);
-    width: 100%;
+  background: -webkit-linear-gradient(0deg, black 22%, white 22%);
+  width: 100%;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    margin-bottom: 0px;
-    display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  margin-bottom: 0px;
+  display: inline-block;
 }
 
-h2{
+h2 {
   color: green;
   margin-left: 30%;
 }
 
 h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 0px;
-    margin-top: 0px;
-    color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: blue;
 }
 
-li{
-  color:green;
+li {
+  color: green;
   margin-left: 25%;
 }
 
-footer{
+footer {
   padding: 40px;
   background: black;
   text-align: center;
-  bottom: 0;
 }
 
-a{
-  color:white;
+a {
+  color: white;
 }
 
 
-.description{
+.description {
   margin-top: 75px;
   margin-left: 25%;
   width: 50%;
@@ -48,25 +47,25 @@ a{
 
 
 .sidebar {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 10px;
-  background-color: black; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: black;
+  overflow-x: hidden;
   margin-top: 200px;
 }
 
-.whereWeGo{
+.whereWeGo {
   padding-top: 30px;
   margin-left: 30%;
   width: 50%;
   color: green;
 }
 
-.pictures{
+.pictures {
   border-width: 5px;
   border-color: black;
   height: 100px;
@@ -74,41 +73,42 @@ a{
   padding: 10px;
 }
 
-.picContainer{
+.picContainer {
   margin-left: 38%;
 }
 
-#contact{
+#contact {
   color: blue;
   text-decoration: underline;
 }
+
 #whereWeGo {
-    color:green;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
 }
 
-#description{
+#description {
   color: green;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
 }
 
 #header {
-    margin-top: 5%;
-    background-color: darkgreen;
-    color: white;
-    padding-bottom: 15px;
+  margin-top: 5%;
+  background-color: darkgreen;
+  color: white;
+  padding-bottom: 15px;
 
 }
 
 #logo {
-    margin-left: 25px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+  margin-left: 25px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
-#login{
+#login {
   float: right;
   width: 200px;
   height: 20px;
@@ -137,7 +137,7 @@ a{
   animation-duration: 15s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
-  color:green;
+  color: green;
 }
 
 .text_2 {
@@ -149,50 +149,63 @@ a{
   animation-duration: 15s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
-  color:green;
+  color: green;
 }
 
 
-.text_1::after, .text_2::after {
+.text_1::after,
+.text_2::after {
   content: "|";
   position: absolute;
   right: 0;
   animation: caret infinite;
   animation-duration: 1s;
   animation-timing-function: steps(1, end);
-  color:green;
+  color: green;
 }
 
 
 @keyframes text2 {
-  0%, 50%, 100% {
+
+  0%,
+  50%,
+  100% {
     width: 0;
   }
-  
-  60%, 90% {
+
+  60%,
+  90% {
     width: 12.2em;
   }
 }
 
 @keyframes text1 {
-  0%, 50%, 100% {
+
+  0%,
+  50%,
+  100% {
     width: 0;
   }
-  10%, 40% {
+
+  10%,
+  40% {
     width: 12.7em;
   }
 }
 
 @keyframes caret {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
 }
 
-.clickedPic{
+.clickedPic {
   height: 400px;
   width: 300px;
 }
